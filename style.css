@@ -131,3 +131,29 @@ header img {
         width: 90%;
     }
 }
+#portfolio {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.portfolio-item {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.portfolio-item h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.portfolio-item p {
+    font-size: 14px;
+    color: #555;
+}
